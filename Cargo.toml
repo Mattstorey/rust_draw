@@ -1,0 +1,16 @@
+# Cargo.toml
+[workspace]
+members = [
+    "examples"]
+
+# [package]
+# name = "rust_draw"
+# version = "0.1.0"
+# edition = "2021"
+
+# [dependencies]
+# nannou = "0.19"
+
+# [[example]]
+# name = "demo"
+# path = "examples/demo.rs"

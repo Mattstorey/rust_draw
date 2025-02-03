@@ -1,0 +1,17 @@
+[package]
+name = "examples"
+version = "0.1.0"
+edition = "2018"
+
+[dev-dependencies]
+nannou = { version ="0.19.0" }
+nannou_egui = { version ="0.19.0" }
+names = "0.14.0"
+itertools = "0.10.3"
+
+[[example]]
+name = "1d_perlin"
+path = "perlin/1d_perlin.rs"
+[[example]]
+name = "2d_perlin"
+path = "perlin/2d_perlin.rs"
