@@ -5,9 +5,7 @@ edition = "2018"
 
 [dev-dependencies]
 nannou = { version ="0.19.0" }
-nannou_egui = { version ="0.19.0" }
-names = "0.14.0"
-itertools = "0.10.3"
+itertools = "0.14.0"
 
 [[example]]
 name = "1d_perlin"
@@ -15,3 +13,76 @@ path = "perlin/1d_perlin.rs"
 [[example]]
 name = "2d_perlin"
 path = "perlin/2d_perlin.rs"
+[[example]]
+name = "2d_perlin_moving"
+path = "perlin/2d_perlin_moving.rs"
+[[example]]
+name = "3d_perlin"
+path = "perlin/3d_perlin.rs"
+[[example]]
+name = "particles"
+path = "particles/particles.rs"
+# NoC
+[[example]]
+name = "bounce_ball"
+path = "NoC/vectors/bounce_ball.rs"
+[[example]]
+name = "bounce_ball_vecs_objs"
+path = "NoC/vectors/bounce_ball_vecs_objects.rs"
+[[example]]
+name = "vector_subtraction"
+path = "NoC/vectors/vector_subtraction.rs"
+[[example]]
+name = "vector_magnitude"
+path = "NoC/vectors/vector_magnitude.rs"
+[[example]]
+name = "vec_normalise"
+path = "NoC/vectors/vec_normalise.rs"
+[[example]]
+name = "motion"
+path = "NoC/vectors/motion.rs"
+[[example]]
+name = "acceleration"
+path = "NoC/vectors/acceleration.rs"
+[[example]]
+name = "forces_1"
+path = "NoC/forces/forces_1.rs"
+[[example]]
+name = "forces_2"
+path = "NoC/forces/forces_2.rs"
+[[example]]
+name = "friction"
+path = "NoC/forces/friction.rs"
+[[example]]
+name = "attraction"
+path = "NoC/forces/attraction.rs"
+[[example]]
+name = "attract_repel"
+path = "NoC/forces/attract_repel.rs"
+[[example]]
+name = "angular_motion"
+path = "NoC/oscillations/angular_motion.rs"
+[[example]]
+name = "spiral"
+path = "NoC/oscillations/spiral.rs"
+[[example]]
+name = "harmonic"
+path = "NoC/oscillations/harmonic.rs"
+[[example]]
+name = "harmonic_2"
+path = "NoC/oscillations/harmonic_2.rs"
+[[example]]
+name = "tree"
+path = "NoC/fractals/tree.rs"
+[[example]]
+name = "recursion"
+path = "NoC/fractals/recursion.rs"
+[[example]]
+name = "lines"
+path = "NoC/fractals/lines.rs"
+[[example]]
+name = "moire"
+path = "NoC/fractals/moire.rs"
+[[example]]
+name = "spring"
+path = "NoC/forces/spring.rs"
