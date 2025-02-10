@@ -8,18 +8,26 @@ A collection of Rust examples exploring the [Nannou](https://nannou.cc/) creativ
 
 ## workspace
 
-This repo is laid out using Rust workspaces. There is currently a single `examples` workspace.
+Exporation of frameworks like Nannou lends itself well to using workspaces organise the code into different experments or concepts. Using the "examples" decleative standalone executables can resides in a single `.rs` file is also helpful. This repo is laid out using Rust workspaces and uses examples in some of the workspaces. Some workspaces have a `main.rs` file. This will also allow a library of reusable parts to be added later if needed (example driven development).
 
 ## Usage
 
 1. Install [Rust](https://www.rust-lang.org/tools/install).
 2. In the project root:
 
-   ```bash
-   
-   cargo run --release --example <example_name>
+To run an example:
+
+```bash
+cargo run --release --example <example_name>
+```
 
 Replace <example_name> with any of the script names in the examples workspace.
+
+To run a `main.rs` in a workspace:
+
+```bash
+cargo run -p <workspace-name/>
+```
 
 ## Future Plans
 
